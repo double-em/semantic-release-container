@@ -10,6 +10,6 @@ RUN npm install --global \
     @semantic-release/git \
     @semantic-release/changelog \
     @semantic-release/exec \
-    semantic-release-docker
+    @semantic-release-plus/docker
 
 RUN npm cache clean --force
